@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+    <test verbose="2" preserve-order="true" name="C:/Users/DELL/Documents/playground/remoteTesting">
+        <classes>
+            <class name="dockerValidation.chrome_TC1"/>
+            <class name="dockerValidation.chrome_TC2"/>
+            <class name="dockerValidation.chrome_TC3"/>
+        </classes>
+
+    </test>
+</suite>
